@@ -1,5 +1,7 @@
 # Primeiro Projeto
 
+Projeto utilizando conceitos de data binding, diretivas, serviços, rotas, formulários reativos (data-driven) e http.
+
 json-server --watch db.json
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
