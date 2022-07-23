@@ -1,0 +1,14 @@
+<p>Avaliação de unidades</p>
+
+
+<input type="text" placeholder="Deixe seu FeedBack" [(ngModel)]="avaliaInput">
+<button class="btn btn-success" (click)="onAvaliaPositivo()">Positivo</button>
+<button class="btn btn-danger"  (click)="onAvaliaNegativo()">Negativo</button>
+
+<ul>
+    <li *ngFor="let avaliacao of avaliacoes">
+      {{ avaliacao }}
+    </li>
+</ul>
+
+<app-recebe-avaliacao></app-recebe-avaliacao>

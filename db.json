@@ -1,0 +1,24 @@
+{
+  "Contas": [
+    {
+      "id": 1,
+      "login": "teste",
+      "senha": "1234"
+    },
+    {
+      "email": "leofranco224@gmail.com",
+      "senha": "leoK@1q2w3e4r",
+      "id": 2
+    },
+    {
+      "email": "leofranco224@gmail.com",
+      "senha": "leoM&0246",
+      "id": 3
+    },
+    {
+      "email": "leonardo.santos@supergeeks.com.br",
+      "senha": "leoM&1234",
+      "id": 4
+    }
+  ]
+}

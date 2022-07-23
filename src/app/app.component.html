@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a routerLink=""class="navbar-brand" href="">Home</a>
+    <button class="navbar-toggler" type="button"></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a routerLink="/login"class="nav-link">Cadastro</a>
+        </li>       
+         <li class="nav-item">
+          <a routerLink="/cursos"class="nav-link">Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/agendamentos"class="nav-link">Agendar Aula</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/unidades"class="nav-link">Unidades</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
