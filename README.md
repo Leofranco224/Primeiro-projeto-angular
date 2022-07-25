@@ -1,6 +1,6 @@
 # Primeiro Projeto
 
-Projeto utilizando conceitos de data binding, diretivas, serviços, rotas, formulários reativos (data-driven) e http.
+Projeto utilizando conceitos de data binding, diretivas, serviços, rotas, formulários reativos (data-driven), lazy loading e http.
 
 json-server --watch db.json
 
